@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/covidandhra.com/static/css/main.5f361e03.chunk.css",
-    "main.js": "/covidandhra.com/static/js/main.4d6c6255.chunk.js",
-    "main.js.map": "/covidandhra.com/static/js/main.4d6c6255.chunk.js.map",
+    "main.js": "/covidandhra.com/static/js/main.02c01955.chunk.js",
+    "main.js.map": "/covidandhra.com/static/js/main.02c01955.chunk.js.map",
     "runtime-main.js": "/covidandhra.com/static/js/runtime-main.46c5108f.js",
     "runtime-main.js.map": "/covidandhra.com/static/js/runtime-main.46c5108f.js.map",
     "static/js/2.66e98e0b.chunk.js": "/covidandhra.com/static/js/2.66e98e0b.chunk.js",
     "static/js/2.66e98e0b.chunk.js.map": "/covidandhra.com/static/js/2.66e98e0b.chunk.js.map",
     "index.html": "/covidandhra.com/index.html",
-    "precache-manifest.aa8e6db631db8f1d0f4f874d22d2032e.js": "/covidandhra.com/precache-manifest.aa8e6db631db8f1d0f4f874d22d2032e.js",
+    "precache-manifest.39816be11800eddf79184af29d035a87.js": "/covidandhra.com/precache-manifest.39816be11800eddf79184af29d035a87.js",
     "service-worker.js": "/covidandhra.com/service-worker.js",
     "static/css/main.5f361e03.chunk.css.map": "/covidandhra.com/static/css/main.5f361e03.chunk.css.map",
     "static/js/2.66e98e0b.chunk.js.LICENSE.txt": "/covidandhra.com/static/js/2.66e98e0b.chunk.js.LICENSE.txt",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.46c5108f.js",
     "static/js/2.66e98e0b.chunk.js",
     "static/css/main.5f361e03.chunk.css",
-    "static/js/main.4d6c6255.chunk.js"
+    "static/js/main.02c01955.chunk.js"
   ]
 }

@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "dd878f63b1c7ee77b81e1777bd818bbe",
+    "revision": "603b0f4a3ff8d939d7baa1dc093457fa",
     "url": "/covidandhra.com/index.html"
   },
   {
-    "revision": "e2ad034f3508127eb7b7",
+    "revision": "dd2c3e7df871db9391cd",
     "url": "/covidandhra.com/static/css/main.5f361e03.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/covidandhra.com/static/js/2.66e98e0b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e2ad034f3508127eb7b7",
-    "url": "/covidandhra.com/static/js/main.4d6c6255.chunk.js"
+    "revision": "dd2c3e7df871db9391cd",
+    "url": "/covidandhra.com/static/js/main.02c01955.chunk.js"
   },
   {
     "revision": "ac6d06b5f58db2b10056",

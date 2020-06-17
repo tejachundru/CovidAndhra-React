@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/covidandhra.com/precache-manifest.aa8e6db631db8f1d0f4f874d22d2032e.js"
+  "/covidandhra.com/precache-manifest.39816be11800eddf79184af29d035a87.js"
 );
 
 self.addEventListener('message', (event) => {

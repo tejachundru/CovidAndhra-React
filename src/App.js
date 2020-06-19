@@ -3,6 +3,7 @@ import './App.scss';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
 import NavBar from './Components/Navbar';
+import Home from './Components/Home';
 
 const schema = {
   '@context': 'http://schema.org/',
@@ -27,11 +28,11 @@ export default function App() {
             <Route path="/about">
               <About />
             </Route>
-            <Route path="/users">
+            {/* <Route path="/users">
               <Users />
-            </Route>
+            </Route> */}
             <Route path="/">
-              <Home />
+              <HomeRoute />
             </Route>
           </Switch>
         </div>
@@ -40,8 +41,8 @@ export default function App() {
   );
 }
 
-function Home() {
-  return <h2>Home</h2>;
+function HomeRoute() {
+  return <Home></Home>;
 }
 
 function About() {

@@ -1,6 +1,6 @@
 export const graphQLendPoint = 'https://covidstat.info/graphql';
 
-export const andhraQuery = `query {
+export const andhraQuerywithHistorical = `query {
     state(countryName: "India", stateName: "Andhra Pradesh") {
       state
       cases
@@ -26,6 +26,24 @@ export const andhraQuery = `query {
           deaths
           recovered
         }
+      }
+    }
+  }`;
+
+export const andhraQuery = `query {
+    state(countryName: "India", stateName: "Andhra Pradesh") {
+      state
+      cases
+      deaths
+      districts {
+        district
+        cases
+        active
+        deaths
+        recovered
+        todayCases
+        todayDeaths
+        todayRecovered
       }
     }
   }`;

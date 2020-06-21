@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
-import { getAndhraDataWithoutHistorical } from '../Controllers/AndhraDataController';
+import { getAndhraDataWithHistorical14days } from '../Controllers/AndhraDataController';
+import SyncedCursors from './Charts';
+import { mock14Days } from './data';
 
 class Home extends Component {
   constructor(props) {
@@ -12,11 +14,15 @@ class Home extends Component {
   }
 
   componentDidMount = () => {
-    getAndhraDataWithoutHistorical((error, response) => {
-      console.log('this is getAndhraDataWithHistorical', error, response);
+    // this.setState({
+    //   error: null,
+    //   response: mock14Days,
+    //   loading: false,
+    // });
+    getAndhraDataWithHistorical14days((error, response) => {
       this.setState({
         error,
-        response,
+        response: response.state,
         loading: false,
       });
     });
@@ -38,7 +44,7 @@ class Home extends Component {
                 </tr>
               </thead>
               <tbody>
-                {this.state.response.state.districts.map((district) => {
+                {this.state.response.districts.map((district) => {
                   return (
                     <tr key={district.district}>
                       <td data-label={'District'}>{district.district}</td>
@@ -51,6 +57,7 @@ class Home extends Component {
                 })}
               </tbody>
             </table>
+            <SyncedCursors cursorData={this.state.response} />
           </div>
         )}
       </div>

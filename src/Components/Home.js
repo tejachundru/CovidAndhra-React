@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { getAndhraDataWithHistorical14days } from '../Controllers/AndhraDataController';
+import { getAndhraDataWithoutHistorical } from '../Controllers/AndhraDataController';
 import SyncedCursors from './Charts';
 import { mock14Days } from './data';
 
@@ -19,7 +19,7 @@ class Home extends Component {
     //   response: mock14Days,
     //   loading: false,
     // });
-    getAndhraDataWithHistorical14days((error, response) => {
+    getAndhraDataWithoutHistorical((error, response) => {
       this.setState({
         error,
         response: response.state,
@@ -57,7 +57,7 @@ class Home extends Component {
                 })}
               </tbody>
             </table>
-            <SyncedCursors cursorData={this.state.response} />
+            {/* <SyncedCursors cursorData={this.state.response} /> */}
           </div>
         )}
       </div>
